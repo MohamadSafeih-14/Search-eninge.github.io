@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.main-P {
+    margin-top: 14%;
+    margin-left: 42%;
+    height: 200px;
+    width: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-P img {
+    width: 272px;
+    height: 92px;
+    display: block;
+}
+
+.main-P .text-feild {
+    display: block;
+    width: 430px;
+    border-radius: 200px;
+    height: 37px;
+    border: 0.5px solid rgba(0, 0, 0, 0.134);
+    outline: none;
+    padding-left: 10px;
+}
+
+.main-P .text-feild:focus {
+    box-shadow: 1.1px 1.1px 5px  #00000029;
+}
+
+.main-P .text-feild:hover {
+    box-shadow: 1.1px 1.1px 5px  #00000029;
+}
+
+.btn-feild-1 {
+    margin: 10px ;
+    margin-top: 30px;
+    margin-left: 95px;
+}
+
+.btn-feild-1,
+.btn-feild {
+    background-color: #f6f6f6;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-feild:hover {
+    box-shadow: 1.1px 1.1px 5px  #00000029;
+    border: 0.4px solid rgba(0, 0, 0, 0.162);
+}
+
+.btn-feild-1:hover {
+    margin-left: 93.8px;
+    margin-top: 29.5px;
+    box-shadow: 1.1px 1.1px 5px  #00000029;
+    border: 0.4px solid rgba(0, 0, 0, 0.162);
+}
+
+.links  {
+    padding-top: 20px;
+    margin-left: 1550px;
+}
+
+.links a {
+    font-weight: 200;
+    color: black;
+    padding-top: 100px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: rgb(14, 78, 217);
+    margin-left: 170px;
+    margin-bottom: 50px;
+}
